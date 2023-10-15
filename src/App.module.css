@@ -1,0 +1,66 @@
+.app {
+  margin: 216px 47px 0 47px;
+}
+.header h1 {
+  margin: 0px;
+  font-family: "Nekst-Black";
+  width: 900px;
+  font-size: 3.4rem;
+  font-weight: bolder;
+  line-height: 0.9;
+  color: #111111;
+}
+.body {
+  margin-top: 30px;
+  display: flex;
+  gap: 32px;
+}
+.body > div {
+  flex: 1 1 auto;
+}
+.footer {
+  margin-top: 55px;
+  display: flex;
+  gap: 32px;
+}
+.footer > div {
+  flex: 0 1 calc((100% - 2 * 30px) / 3);
+}
+.footer .number {
+  margin-top: 13px;
+  font-size: 54px;
+  color: #333333;
+  font-family: "Nekst-Black";
+  line-height: 90%;
+}
+.footer button {
+  margin-top: 7px;
+}
+.description {
+  color: #575757;
+}
+.holerRuble {
+  font-size: 30px;
+  font-family: "Nekst-Black";
+  color: #575757;
+  margin: auto 25px auto 25px;
+}
+.holerText {
+  font-size: 30px;
+  font-family: "Nekst-Black";
+  color: #575757;
+  margin: auto 25px auto 25px;
+}
+.holerPercent {
+  width: 69px;
+  height: 54px;
+  background: #ebebec;
+  border-radius: 16px;
+  font-size: 20px;
+  font-family: "Nekst-Black";
+  color: #575757;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 5px auto 5px;
+}

@@ -1,0 +1,20 @@
+.button {
+  border: solid 1px transparent;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff9514;
+  border-radius: 40px;
+  font-family: "Nekst-Black";
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  height: 68px;
+}
+.button:hover {
+  background: #111111;
+}

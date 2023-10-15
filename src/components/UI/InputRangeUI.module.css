@@ -1,0 +1,78 @@
+.inputContainer {
+  margin-top: 25px;
+  height: 65px;
+  position: relative;
+  width: 100%;
+}
+.input {
+  background: #f3f3f4;
+  border-radius: 16px;
+  border: solid 1px #888;
+  font-size: 30px;
+  font-family: "Nekst-Black";
+  height: 100%;
+  outline: 0;
+  padding: 0 23px;
+  transition: 200ms;
+  width: 100%;
+  color: #575757;
+}
+.input:focus {
+  border: solid 1px #888;
+}
+.input:hover {
+  border: solid 1px #888;
+}
+.input:disabled {
+  background: #888;
+}
+.placeholder {
+  height: 65px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ff9514;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.range::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+.range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ff9514;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out;
+}
+.range::-moz-range-thumb:hover {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ff9514;
+  cursor: pointer;
+}

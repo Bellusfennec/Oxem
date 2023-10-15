@@ -1,13 +1,61 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Gilroy"),
+    /* Если не получилось, загрузит woff2 */
+      url("./static/fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+      url("./static/fonts/Gilroy/Gilroy-Regular.woff2") format("woff");
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  font-style: normal;
+  font-weight: 700;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Gilroy-Black"),
+    /* Если не получилось, загрузит woff2 */
+      url("./static/fonts/Gilroy/Gilroy-Black.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+      url("./static/fonts/Gilroy/Gilroy-Black.woff2") format("woff");
+}
+@font-face {
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Nekst"),
+    /* Если не получилось, загрузит woff2 */
+      url("./static/fonts/Nekst/Nekst-Regular.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+      url("./static/fonts/Nekst/Nekst-Regular.woff2") format("woff");
+}
+@font-face {
+  font-family: "Nekst-Black";
+  font-style: normal;
+  font-weight: 900;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Nekst-Black"),
+    /* Если не получилось, загрузит woff2 */
+      url("./static/fonts/Nekst/Nekst-Black.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+      url("./static/fonts/Nekst/Nekst-Black.woff2") format("woff");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Gilroy", "Nekst", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
